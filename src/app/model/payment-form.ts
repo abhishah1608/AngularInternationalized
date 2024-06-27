@@ -1,52 +1,53 @@
 export class PaymentForm {
+  public key: string;
 
-    public  key: string;
+  public TransactionId: string;
 
-     public   TransactionId: string;
+  public amount: string;
 
-        public amount: string;
+  public productinfo: string;
 
-        public productinfo: string;
+  public firstName: string;
 
-        public firstName: string;
+  public email: string;
 
-        public email: string;
+  public phone: string;
 
-        public phone: string;
+  public surl: string;
 
-        public surl: string;
+  public furl: string;
 
-        public furl: string;
+  public hash: string;
 
-        public hash: string;
+  public lastName: string;
 
-        public lastName: string;
+  public address1: string;
 
-        public address1: string;
+  public address2: string;
 
-        public address2: string;
+  public city: string;
 
-        public city: string;
+  public state: string;
 
-        public state: string;
+  public country: string;
 
-        public country: string;
+  public zipCode: string;
 
-        public zipCode: string;
+  public salt: string;
 
-        public salt: string;
+  public url: string;
 
-        public url: string;
+  public userId: number;
 
-        public userId: number;
+  public loginId: number;
 
-        public loginId: number;
+  public product: string;
 
-        public product: string;
+  public udf1: string;
 
-        public udf1: string;
+  public CartGuid: string;
 
-        constructor() {
+  public StripeUrl: string;
 
-        }
+  constructor() {}
 }

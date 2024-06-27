@@ -1,14 +1,13 @@
 export class BookDetails {
+  BookId: number;
 
-    BookId: number;
+  Quantity: number;
 
-    Quantity: number;
+  total: number;
 
-    total: number;
+  BookName: string;
 
-    BookName: string;
+  BookPrice: Number;
 
-    constructor() {
-
-    }
+  constructor() {}
 }
